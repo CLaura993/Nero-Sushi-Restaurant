@@ -1,0 +1,1201 @@
+/*Reset css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	padding:0;
+	margin:0;
+    background: url(img/back.jpg); /* fallback for old browsers */
+    background-repeat: repeat;
+	font-family: 'Kaushan Script', cursive;
+
+}
+
+p{
+    font-family: 'Cabin', sans-serif;
+}
+
+h1 h2 h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*navbar*/
+
+nav{
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    background-color: rgba(0,0,0,.8);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-color:white;
+    position:fixed;
+    display:inline-block;
+
+}
+
+nav ul {
+    
+    margin: 0px;
+
+}
+
+
+ nav .logo{
+	position:absolute;
+    top:10px; 
+    left:10px;
+    width:100px;
+    height:40px;
+    overflow:hidden;
+
+
+    
+}
+
+nav li { 
+display: inline-block; 
+padding-top:25px;
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 12px 12px 8px;
+    display:block;
+}
+
+nav a:hover {
+    color: #b20000;
+    
+}
+
+
+/*fine navbar*/
+
+
+/*HAMBURGER*/
+#menu-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: url("menu.png") center;
+  
+  
+}
+
+a:hover#menu-icon {
+    border-radius: 4px 4px 0 0;
+     opacity:0.5;
+}
+
+
+
+
+
+/*FINE HAMBURGER*/
+
+
+
+
+
+
+
+
+
+
+/*NAVBAR RESPONSIVE*/
+@media screen and (max-width:740px){
+    header {
+        position: absolute;
+    }
+    #menu-icon {
+         
+        display: inline-block;
+        float:right;
+       
+    }
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        
+        background: rgba(0,0,0,.8);
+        border: 1px solid ;
+        
+        top: 60px;
+        width: 100%;
+        border-radius: 2px 0 2px 2px;
+      
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+      animation: all 2s ease-in-out
+    }
+    nav:hover ul {
+        display: block;
+    }
+}
+
+
+/*FINE NAVBAR RESPONSIVE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*INCOLLATO DA ELIMINARE*/
+/*prima section*/
+
+.prima-sec{
+    width:100%;
+    height:570px;
+    display:block;
+    padding:0;
+
+}
+
+.prima-sec img{
+    width: 100%;
+    height:100%;
+ /* Create the parallax scrolling effect */
+    
+
+}
+
+@media screen and (max-width:848px) {
+   .prima-sec{
+    width:100%;
+    height:auto;
+
+}
+
+}
+
+
+/*Sezione SLIDER*/
+
+
+.Slider{
+    display:block;
+    height:670px;
+    width:100%;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:848px) {
+   .Slider{
+    width:100%;
+    height:auto;
+    
+}
+
+}
+
+/*fine sezione SLIDER*/
+
+
+
+/* FINE PARTE INCOLLATA */
+
+
+/*Sezione about*/
+
+
+
+/*seconda section*/
+
+
+.about-us{
+    
+    width: 100%;
+    height: 320px;
+    background-color: #434343 → #000000 ;
+    display:inline-block;
+   
+}
+
+.about-us img{
+    float:right;
+    width: 300px;
+    height: 100px;
+    padding:50px;
+    padding-right:20%;
+    display:inline-block;
+}
+
+
+.descr h2{
+ 
+font-family: 'Josefin Sans', sans-serif;
+padding-top: 25px;
+color:black;
+font-size:30px;
+color:#b20000;
+word-spacing: 2px;
+display: inline-block;
+
+}
+
+
+.descr p{
+font-size: 16px;
+    line-height: 1.3;
+    color: #bcbcbc;
+    margin: 0;
+    margin-bottom: 20px;
+float:left;
+    display: inline-block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+   font-family: 'Playfair Display', serif;
+   font-weight: bold;
+   
+}
+
+
+.descr{
+    padding:25px 50px;
+    float:left;
+   width:25%;
+   padding-left:20%;
+   display:inline-block;
+   
+
+}
+
+
+@media screen  and (max-width: 1156px) {
+    .about-us img{
+        display:none;
+        width:100%;
+        height:auto;
+    }
+    .about-us h2{
+    width:100%;
+    height:auto;    
+    word-spacing: 2px;
+    text-align: center;
+    padding:0;
+    margin:0;
+  
+    
+        }
+    .about-us p{
+        width:100%;
+        height:auto;
+       text-align: center;
+          line-height: 120%;
+          padding:0;
+           
+        
+        }
+        
+.descr{
+    
+    float:left;
+   width:80%;
+   padding-left:10%;
+   padding-right: 10%;
+   display:inline-block;
+   
+
+}
+
+}
+
+
+/*Sezione 2 foto piatti*/
+
+.foto-piatti{
+    width:100%;
+    background-color:#111111;
+    height:500px;
+    
+}
+
+.foto-piatti  img{
+    float:right;
+    width:50%;
+    height:auto;
+    
+}
+
+@media screen and (max-width:1800px) {
+   .foto-piatti{
+    width:100%;
+    background-color:#111111;
+    height:auto;
+    padding-right:20px;
+}
+
+}
+
+
+/* Fine sezione 2 piatti */
+
+
+/*Sezione menu*/
+
+
+.menu{
+    height:450px;
+    display:inline-block;
+    width: 100%;
+    
+}
+
+.menu-div h2{
+    text-align: center;
+    color:#b20000;
+    font-size:30px;
+    padding:25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu-div p{
+    text-align:center;
+    color:white;
+    font-size:20px;
+   font-family: 'Playfair Display', serif;
+     line-height: 160%;
+     padding:5px;
+     padding-bottom:40px;
+}
+
+.menu-div{
+    padding-top:50px;
+    padding-bottom:50px;
+    width:35%;
+    padding-left:32.5%;
+   display:inline-block;
+}
+
+
+ 
+.button1 {
+   text-transform: uppercase;
+    background: none;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
+    line-height: 17px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+
+}
+
+
+.button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+ .button1 a{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+   
+    display:inline-block;
+}
+
+
+@media screen  and (max-width: 1364px) {
+    
+    .menu-div h2{
+    width:100%;
+    height:auto;    
+    word-spacing: 2px;
+    text-align: center;
+    padding:0;
+    margin:0;
+  
+    
+        }
+    .menu-div p{
+        width:100%;
+        height:auto;
+       text-align: center;
+          line-height: 120%;
+          padding-bottom: 20px;
+           
+        
+        }
+        
+.menu-div{
+    
+    float:left;
+   width:80%;
+   padding-left:10%;
+   padding-right: 10%;
+   display:inline-block;
+   
+
+}
+
+}  
+
+
+.button1{
+    padding-top: 20px;
+}
+/*Fine Sezione MENU*/
+
+
+/*Sezione menub*/
+
+
+.menub{
+    height:700px;
+    display:inline-block;
+    width: 100%;
+    
+}
+
+.menub-div h2{
+    text-align: center;
+    color:#b20000;
+    font-size:30px;
+    padding:25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menub-div p{
+    text-align:center;
+    color:white;
+    font-size:20px;
+   font-family: 'Playfair Display', serif;
+     line-height: 160%;
+     padding:5px;
+     padding-bottom:40px;
+}
+
+.menub-div{
+    padding-top:50px;
+    padding-bottom:50px;
+    width:35%;
+    padding-left:32.5%;
+   display:inline-block;
+}
+
+
+ 
+.button1 {
+   text-transform: uppercase;
+    background: none;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
+    line-height: 17px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+
+}
+
+
+.button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+ .button1 a{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+   
+    display:inline-block;
+}
+
+
+@media screen  and (max-width: 1364px) {
+    .menub{
+    height:auto;
+    display:inline-block;
+    width: 100%;
+    
+}
+    .menub-div h2{
+    width:100%;
+    height:auto;    
+    word-spacing: 2px;
+    text-align: center;
+    padding:0;
+    margin:0;
+  
+    
+        }
+    .menub-div p{
+        width:100%;
+        height:auto;
+       text-align: center;
+          line-height: 120%;
+          padding-bottom: 20px;
+           
+        
+        }
+        
+.menub-div{
+    
+    float:left;
+   width:80%;
+   padding-left:10%;
+   padding-right: 10%;
+   display:inline-block;
+   
+
+}
+
+}  
+
+
+.menub-div .button1{
+    padding-bottom:10px;
+}
+/*Fine Sezione MENU*/
+
+
+
+
+
+/*Sezione Tre immagini*/
+
+.set-tre-img{
+    width:100%;
+    height:570px;
+    text-align: center;
+
+}
+
+.set-tre-img img{
+    width:33.3%;
+    height:100%;
+    float:left;
+     display: inline-block;
+}
+
+
+@media screen and (max-width: 900px) {
+    .set-tre-img{
+    width:100%;
+    height:auto;
+
+}
+
+.set-tre-img img{
+    width:100%;
+    height:auto;
+
+}
+}
+
+/*FINE SEZIONE TRE IMMAGINI*/
+
+
+/*Sezione OFFERTE*/
+
+.offerte{
+    display: inline-block;
+    width: 100%
+    height:300px;
+    background-image: none;
+}
+
+.sfondo{
+    width: 50%;
+    float:left;
+    height:400px;
+display: inline-block;
+}
+
+ .nera{
+    width: 50%;
+    float:left;
+    display: inline-block;
+    background-color: black;
+    height: 400px;
+}
+
+
+.offerte h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#b20000;
+    font-size:30px;
+    padding-left:12.5%;
+   padding-top:100px;
+   
+}
+
+.offerte p{
+    
+    color:white;
+    font-size:20px;
+     font-family: 'Playfair Display', serif;
+     padding-top:5px;
+     padding-bottom:20px;
+     padding-left:12.5%;
+     line-height: 160%;
+    color: #bcbcbc;
+    margin: 0;
+    margin-bottom: 20px;
+    
+}
+
+.nera img{
+    width: 20%;
+    height:auto;
+    float:left;
+    padding-left:15%;
+    padding-right:15%;
+   padding-bottom: 100px;
+  padding-top:100px;
+}
+
+.nera img:hover{
+    opacity: 0.5;
+}
+
+.offerte a{
+    color:#b20000;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+
+}
+
+@media screen  and (max-width: 764px) {
+    
+ .nera img{
+    width: 70%;
+    height:auto;
+    float:left;
+    
+  
+   
+}
+ .nera{
+    width: 50%;
+    float:left;
+    display: inline-block;
+    background-color: black;
+    height: auto;
+} 
+
+.sfondo{
+    width: 50%;
+    float:left;
+    height:auto;
+display: inline-block;
+}
+
+.offerte a{
+    color:#b20000;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+     text-align: center;
+     float:left;
+     
+}
+.offerte p{
+    
+    color:white;
+    font-size:20px;
+     font-family: 'Playfair Display', serif;
+     padding-top:5px;
+     padding-bottom:30px;
+     padding-left:12.5%;
+     line-height: 160%;
+    color: #bcbcbc;
+    margin: 0;
+    margin-bottom: 20px;
+    
+}
+}  
+
+@media screen  and (max-width: 700px) {
+    
+ .nera img{
+    width: 70%;
+    height:auto;
+    float:left;
+    
+  
+   
+}
+ .nera{
+    width: 50%;
+    float:left;
+    display: inline-block;
+    background-color: black;
+    height: auto;
+} 
+
+.sfondo{
+    width: 50%;
+    float:left;
+    height:auto;
+display: inline-block;
+}
+
+.offerte a{
+    color:#b20000;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+     text-align: center;
+     
+     
+}
+.offerte p{
+    
+    color:white;
+    font-size:20px;
+     font-family: 'Playfair Display', serif;
+     padding-top:30px;
+     padding-bottom:30px;
+     padding-left:12.5%;
+     line-height: 200%;
+    color: #bcbcbc;
+    
+    
+}
+}  
+
+
+/*Sezione Cibo Controllato*/
+
+.locale{
+    width:100%;
+    height:570px;
+    display:block;
+    padding:0;
+}
+
+.locale img{
+    width: 100%;
+    height:100%;
+  
+}
+
+@media screen and (max-width:848px) {
+   .locale{
+    width:100%;
+    height:auto;
+    
+}
+
+}
+
+/*Sezione menu*/
+
+
+.chef{
+    height:850px;
+    display:inline-block;
+    width: 100%;
+    
+}
+
+.chef-div h2{
+    text-align: center;
+    color:#b20000;
+    font-size:30px;
+    padding:25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.chef-div p{
+    text-align:center;
+    color:white;
+    font-size:20px;
+     font-family: 'Playfair Display', serif;
+     line-height: 160%;
+     padding:5px;
+     padding-bottom:40px;
+}
+
+.chef-div{
+    padding-top:50px;
+    padding-bottom:50px;
+    width:35%;
+    padding-left:32.5%;
+   display:inline-block;
+}
+
+
+ 
+.button1 {
+   text-transform: uppercase;
+    background: none;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+   font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
+    line-height: 17px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+
+}
+
+
+.button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+ .button1 a{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+   
+    display:inline-block;
+}
+
+
+@media screen  and (max-width: 1364px) {
+    .chef{
+    height:auto;
+    display:inline-block;
+    width: 100%;
+    
+}
+    .chef-div h2{
+    width:100%;
+    height:auto;    
+    word-spacing: 2px;
+    text-align: center;
+    padding:0;
+    margin:0;
+  
+    
+        }
+    .chef-div p{
+        width:100%;
+        height:auto;
+       text-align: center;
+          line-height: 120%;
+          padding-bottom: 20px;
+           
+        
+        }
+        
+.chef-div{
+    
+    float:left;
+   width:80%;
+   padding-left:10%;
+   padding-right: 10%;
+   display:inline-block;
+   
+
+}
+
+}  
+
+
+
+
+
+
+
+/*Fine Sezione MENU*/
+
+/*Footer*/
+
+
+
+.footer{
+    height:400px;
+    display:inline-block;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.footer-div h2{
+    text-align: center;
+    color:#b20000;
+    font-size:30px;
+    padding:25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-div p{
+    text-align:center;
+    color:white;
+    font-size:20px;
+     font-family: 'Playfair Display', serif;
+     line-height: 120%;
+     padding:5px;
+     padding-bottom:40px;
+}
+
+.footer-div{
+    padding-top:50px;
+    padding-bottom:50px;
+    width:35%;
+    padding-left:32.5%;
+   display:inline-block;
+}
+
+
+ 
+.footer-div .button1 {
+   text-transform: uppercase;
+    background: none;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
+    line-height: 17px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+
+}
+
+
+.footer-div .button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+ .footer-div .button1 a{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+   
+    display:inline-block;
+}
+
+ table {
+    padding: 0;
+    border-spacing: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16;
+    line-height: 1.3;
+    color: #bcbcbc;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 377px; 
+     margin: 0;
+   
+     margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+table tr td{
+    padding-bottom:30px;
+    text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+
+
+.footer{
+    height:500px;
+    display:inline-block;
+    width: 100%;
+    background-color: black;
+    
+}
+
+
+
+.footer-div h2{
+    text-align: center;
+    color:#b20000;
+    font-size:30px;
+    padding:auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-div p{
+    text-align:center;
+    color:white;
+    font-size:20px;
+     font-family: 'Playfair Display', serif;
+     line-height: 120%;
+     padding:auto;
+     
+}
+
+.footer-div{
+    
+    width:70%;
+    padding-left:15%;
+    padding-right: 15%;
+   display:inline-block;
+   height:auto;
+}
+
+
+
+
+ .footer-div table {
+    padding: 0;
+    border-spacing: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16;
+    line-height: 1.3;
+    color: #bcbcbc;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+    
+     margin: 0;
+   padding-bottom: 20px;
+     margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+table tr td{
+ padding-left: 5px;
+}
+
+
+
+.footer-div.button1 {
+   text-transform: uppercase;
+    background: none;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: inline;
+    outline: none;
+    font-size: 10px;
+    line-height: 17px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+
+}
+
+
+.button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+ .button1 a{
+    color:white;
+    font-size:15px;
+    text-decoration: none;
+   
+    display:inline-block;
+}
+}
+
+/*Fine Sezione MENU*/
+
