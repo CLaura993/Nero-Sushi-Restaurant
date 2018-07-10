@@ -19,8 +19,9 @@ This one was one of my first work ( I have make it at first for portfolio purpou
 * Css
 * Html5
 * Js
+* JQuery
 * Mediaqueries
-
+Photos propriety of Nero Sushi (low quality from Facebook page)
 
 ## Authors
 
