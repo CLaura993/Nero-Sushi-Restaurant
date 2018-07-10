@@ -1,12 +1,11 @@
-# Nero-Sushi-Restaurant
-Responsive Website for Nero Sushi Restaurant
+
 # Nero Sushi Restaurant
 
 Responsive website for Nero sushi restaurant (new management: Hachi Restaurant)
 
 ## Getting Started
 
-Please test the site at github page https://claura993.github.io/Osaka-SuShi-Restaurant/index.html 
+Please test the site at github page https://claura993.github.io/Nero-Sushi-Restaurant/ 
 
 
 
